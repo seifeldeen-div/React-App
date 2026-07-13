@@ -1,23 +1,23 @@
-.product {
-  padding: 10px;
-  text-align: center;
-  border: solid 1px;
-  width: calc(90% / 3);
-
-  img {
-    width: 200px;
-  }
+.sideBar {
+    height: 100vh;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    ul {
+        li {
+            margin: 10px 0;
+            a {
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
+    }
 }
 
-.productList {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.btns {
-  margin: 100px auto;
+.nav-colors {
+    background-color: black;
+    a,.active {
+        color: white !important;
+    }
 }
