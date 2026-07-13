@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom"
+import "../Style/SideBar.css"
+
 function SideBar() {
     return (
         <>
             <ul className="list-unstyled">
                 <li>
-                    <a href="/#">Get all Products</a>
+                    <Link to="/">Main Content</Link>
                 </li>
                 <li>
-                    <a href="/#">Get all Categories</a>
+                    <Link to="products">Get all Products</Link>
+                </li>
+                <li>
+                    <Link to="/#">Get all Categories</Link>
                 </li>
             </ul>
         </>
