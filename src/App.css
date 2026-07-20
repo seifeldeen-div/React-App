@@ -4,9 +4,11 @@
     color: red;
     text-align: center;
     padding: 10px;
+
     ul {
         li {
             margin: 10px 0;
+
             a {
                 font-size: 20px;
                 padding: 5px;
@@ -17,7 +19,29 @@
 
 .nav-colors {
     background-color: black;
-    a,.active {
+
+    a,
+    .active {
         color: white !important;
     }
 }
+
+.card {
+    max-width: 400px;
+
+    img {
+        overflow: hidden;
+        height: 300px;
+    }
+}
+
+img {
+        overflow: hidden;
+        height: 300px;
+    }
+
+    textarea {
+        width: 700px;
+        height: 150px;
+        resize: both;
+    }
