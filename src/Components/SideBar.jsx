@@ -14,6 +14,9 @@ function SideBar() {
                 <li>
                     <Link to="/#">Get all Categories</Link>
                 </li>
+                <li>
+                    <Link to="context">Try Context</Link>
+                </li>
             </ul>
         </>
     )
